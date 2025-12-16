@@ -14,7 +14,7 @@ export default hopeTheme({
   logo: "https://steingraeber-1259380157.cos.ap-guangzhou.myqcloud.com/public/images/cth/cth_logo.png",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
-
+  darkmode: "enable",
   docsDir: "src",
   fullscreen: true,
   // 导航栏
@@ -163,10 +163,10 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
-  backToTop: {
-    threshold: 500,
-    progress: true,
-  },
+    backToTop: {
+      threshold: 500,
+      progress: true,
+    },
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
     // comment: {

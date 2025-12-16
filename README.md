@@ -1,4 +1,5 @@
 # 陈嗯嗯的个人博客
+nodejs version: 22.21.1
 
 这是一个基于 VuePress 和 vuepress-theme-hope 构建的个人技术博客网站。
 
