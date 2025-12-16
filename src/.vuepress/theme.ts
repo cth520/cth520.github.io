@@ -179,6 +179,9 @@ export default hopeTheme({
     },
 
     icon: {
+      assets: [
+        "/iconify-icon@2.js",
+      ],
       prefix: "fa6-solid:",
     },
 
